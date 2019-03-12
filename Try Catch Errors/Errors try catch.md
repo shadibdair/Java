@@ -1,9 +1,10 @@
 ***Try Catch - Java**
 
 ```
-Aritmatic Exception - ωβιΰδ ξϊξθιϊ
-NullPointerExecption - δτμϊ ξωϊπδ
-OutoBoundException - ηψιβδ ξβαεμεϊ ξςψκ
-Exception - ηψιβδ λμμιϊ
-I/O Execption - χαφιν
+
+Aritmatic Exception - Χ©Χ’Χ™ΧΧ” ΧΧªΧΧΧ™Χª
+NullPointerExecption - Χ”Χ¤ΧΧª ΧΧ©ΧªΧ Χ”
+OutoBoundException - Χ—Χ¨Χ™Χ’Χ” ΧΧ’Χ‘Χ•ΧΧ•Χª ΧΧΆΧ¨Χ
+Exception - Χ—Χ¨Χ™Χ’Χ” Χ›ΧΧΧ™Χª
+I/O Execption - Χ§Χ‘Χ¦Χ™Χ
 ```
