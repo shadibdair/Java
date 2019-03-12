@@ -1,0 +1,16 @@
+
+public class ClassMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Item item = new Item(111,"box",44);
+		
+		NewItem newItem = new NewItem(item, 20);
+		
+		System.out.println(item.cost(1000));
+		System.out.println(newItem.cost(1000));
+
+	}
+
+}

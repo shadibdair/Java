@@ -1,0 +1,58 @@
+
+public class Item {
+	
+	private long catalog;
+	private String name;
+	private long price;
+	
+	public Item(long catalog, String name, long price) {
+		super();
+		this.catalog = catalog;
+		this.name = name;
+		this.price = price;
+	}
+
+	public Item()
+	{
+		this.catalog=0;
+		this.name=null;
+		this.price=0;
+	}
+	
+	public long getCatalog() {
+		return catalog;
+	}
+
+	public void setCatalog(long catalog) {
+		this.catalog = catalog;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public long getPrice() {
+		return price;
+	}
+
+	public void setPrice(long price) {
+		this.price = price;
+	}
+	
+	// יצרנו אותו בכדי לדרוס את האבא 
+	@Override
+	public String toString()
+	{
+		return name+" "+price+" "+catalog;
+	}
+	
+	public float cost(int N)
+	{
+		return N*price;
+	}
+
+}
