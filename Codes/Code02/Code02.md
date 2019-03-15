@@ -1,5 +1,5 @@
 Question 2
-
+```
 Shop.java
 
 
@@ -11,7 +11,7 @@ public class Shop {
 	private float apple;
 	private float orange;
 	//--------------------------------------
-	//בנאי שמקבל כארגומנט את כל הנתונים עבור כל השדות הפרטיים ומאתחל את השדות של המחלקה בהתאם
+	//ֳ¡ֳ°ֳ ֳ© ֳ¹ֳ®ֳ·ֳ¡ֳ¬ ֳ«ֳ ֳ¸ֳ¢ֳ¥ֳ®ֳ°ֳ¨ ֳ ֳ÷ ֳ«ֳ¬ ֳ₪ֳ°ֳ÷ֳ¥ֳ°ֳ©ֳ­ ֳ²ֳ¡ֳ¥ֳ¸ ֳ«ֳ¬ ֳ₪ֳ¹ֳ£ֳ¥ֳ÷ ֳ₪ֳ´ֳ¸ֳ¨ֳ©ֳ©ֳ­ ֳ¥ֳ®ֳ ֳ÷ֳ§ֳ¬ ֳ ֳ÷ ֳ₪ֳ¹ֳ£ֳ¥ֳ÷ ֳ¹ֳ¬ ֳ₪ֳ®ֳ§ֳ¬ֳ·ֳ₪ ֳ¡ֳ₪ֳ÷ֳ ֳ­
 	public Shop(String name, float banana, float apple, float orange) {
 		this.name = name;
 		this.banana = banana;
@@ -22,7 +22,7 @@ public class Shop {
 	// Getter & Setter
 	
 	//--------------------------------------
-	//בנאי שלא מקבל שום ערך
+	//ֳ¡ֳ°ֳ ֳ© ֳ¹ֳ¬ֳ  ֳ®ֳ·ֳ¡ֳ¬ ֳ¹ֳ¥ֳ­ ֳ²ֳ¸ֳ×
 	public Shop()
 	{
 		name=null;
@@ -95,5 +95,5 @@ public class Shop {
 	}
 	
 }
-
+```
 
