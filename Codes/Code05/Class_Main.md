@@ -1,3 +1,5 @@
+#Film
+```
 import java.util.Scanner;
 
 
@@ -8,11 +10,11 @@ public class Main_Class {
 		Films[] FilmArray = new Films[3];
 		Scanner input = new Scanner(System.in);
 		
-		System.out.println("Welcome to the Club.");
+		
 		
 		// insert Elements to array
 		for (int i = 0; i < FilmArray.length; i++) {
-		//	System.out.println("\nPlease enter your favorite Film:");
+			System.out.println("\nPlease enter your favorite Film:");
 			
 			System.out.print("Film: ");
 			String f = input.nextLine();
@@ -63,3 +65,4 @@ public class Main_Class {
 	}
 }
 
+```
