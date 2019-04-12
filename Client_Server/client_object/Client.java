@@ -1,9 +1,9 @@
 package client_object;
 
 
-import Personn.Lecturer;
-import Personn.Personn;
-import Personn.Student;
+import Person.Lecturer;
+import Person.Person;
+import Person.Student;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -17,11 +17,11 @@ public class Client {
 
         String name = null, id =null;
         double salary;
-        Personn s = null;
-        ArrayList<Personn> arr = new ArrayList<Personn>();
+        Person s = null;
+        ArrayList<Person> arr = new ArrayList<Person>();
         int counter = 0,age=0;
 
-        Socket clientSocket = new Socket("localhost", 5555);
+        Socket clientSocket = new Socket("localhost", 10000);
         Scanner sc = new Scanner(System.in);
 
         ObjectOutputStream outToServer =
@@ -58,12 +58,18 @@ public class Client {
         }
 
 
-            for(Personn p : arr) {
+            for(Person p : arr) {
                 outToServer.writeObject(p);
             }
             String str = inFromServer.readLine();
 
             System.out.println(str);
+
+
+//            for (Lecturer lecturer : arr) {
+//                System.out.println(lecturer.getName());
+//            }
+//        }
 
 
     }
