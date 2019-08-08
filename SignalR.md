@@ -13,4 +13,12 @@ CLIENTS  send data to the server or make request can just go right through the S
 At the same time so we have this bi-directional communication between the two.
 
 
+The order 
+- SignalR.
+- WebSocket.
+- EventSource.
+- ForeverFrame.
+- LongPolling
+
+
 
